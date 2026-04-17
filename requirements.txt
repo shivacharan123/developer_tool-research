@@ -1,0 +1,24 @@
+# Core Python utilities
+python-dotenv>=1.0.0
+
+# LangChain & LangGraph (Agent orchestration)
+langchain>=0.1.16
+langchain-core>=0.1.48
+langgraph>=0.0.40
+
+# OpenAI / OpenRouter LLM client
+langchain-openai>=0.1.7
+openai>=1.12.0
+
+# Firecrawl Web Scraping
+firecrawl-py>=0.0.14
+
+# Data validation & schemas
+pydantic>=2.6.0
+
+# Optional but recommended (stability)
+tenacity>=8.2.3
+requests>=2.31.0
+
+fastapi==0.115.0
+uvicorn[standard]==0.32.0

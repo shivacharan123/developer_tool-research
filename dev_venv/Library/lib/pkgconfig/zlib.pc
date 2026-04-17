@@ -1,0 +1,13 @@
+prefix=D:/NEW_downloads/for_vs_coding/rag_adv/dev_venv/Library
+exec_prefix=D:/NEW_downloads/for_vs_coding/rag_adv/dev_venv/Library
+libdir=D:/NEW_downloads/for_vs_coding/rag_adv/dev_venv/Library/lib
+sharedlibdir=D:/NEW_downloads/for_vs_coding/rag_adv/dev_venv/Library/lib
+includedir=D:/NEW_downloads/for_vs_coding/rag_adv/dev_venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.3.1
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
